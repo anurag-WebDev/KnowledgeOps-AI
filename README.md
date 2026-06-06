@@ -2,22 +2,27 @@
 
 AI-powered knowledge operations platform for teams.
 
-Features:
+## Problem
 
-- Workspace Management
-- Document Intelligence
-- AI Search
-- AI Chat
-- Document Summaries
-- FAQ Generation
-- Meeting Notes Extraction
-- Policy Comparison
+Organizations store information across PDFs, policies, meeting notes, and internal documentation.
 
-Tech Stack:
+Finding relevant information is slow and inefficient.
+
+KnowledgeOps AI enables teams to:
+
+- Upload organizational documents
+- Perform semantic search
+- Chat with company knowledge
+- Generate summaries
+- Extract action items
+- Compare document versions
+
+## Architecture
 
 Frontend:
 - React
 - TypeScript
+- Material UI
 
 Backend:
 - Node.js
@@ -26,8 +31,18 @@ Backend:
 Database:
 - MongoDB
 
+Vector Database:
+- Qdrant
+
 AI:
 - Gemini
 
-Vector Database:
-- Qdrant
+## Features
+
+- Authentication
+- Workspace Management
+- Document Intelligence
+- AI Chat
+- RAG Search
+- AI Summaries
+- Citations
